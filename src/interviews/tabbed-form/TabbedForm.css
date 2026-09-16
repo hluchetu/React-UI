@@ -1,0 +1,10 @@
+
+.tab-navigation button {
+  background-color: transparent;
+  color: #2563eb;
+}
+
+.tab-navigation button[aria-pressed="true"] {
+  background-color: #2563eb;
+  color: white;
+}
