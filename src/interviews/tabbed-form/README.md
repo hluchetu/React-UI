@@ -6,13 +6,11 @@ Build a React and TypeScript form with Profile, Interests and Settings sections.
 
 This is a practice scenario, not a confirmed Eightfold question. Follow-ups below simulate an adaptive technical interview.
 
-## Original question from the supplied transcript
-
-The transcript describes the following machine-coding challenge. This is a reconstruction of the requirements discussed in the video, not a verbatim copy of the original interview prompt shown on screen.
+## Problem statement
 
 > Design a form-based UI using React in CodeSandbox with three tabs: Profile, Interests and Settings. Include fields such as name, age and email, and incorporate dropdowns, radio buttons and checkboxes. Implement validation and preserve entered data when switching between tabs. Display a Submit button only on the final tab, and submit the data from the entire form together.
 
-The transcript does not specify every field, option or validation rule in the initial description. Clarify those details with the interviewer before coding. Our implementation uses TypeScript for practice and currently includes text/number/email inputs, checkboxes and radio buttons; the dropdown requirement still needs to be implemented.
+Clarify the exact fields, options and validation rules with the interviewer before coding. This implementation uses TypeScript and currently includes text, number and email inputs, checkboxes and radio buttons. The dropdown requirement remains to be implemented.
 
 ## Interview touch points
 
