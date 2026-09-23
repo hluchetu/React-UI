@@ -1,6 +1,8 @@
-// import { TabbedForm } from "./interviews/tabbed-form/TabbedForm";
- import { TodoList } from "./interviews/todo-list/TodoList";
+// import { ProductPagination } from "./interviews/pagination/ProductPagination";
+import { Accordion } from "./interviews/accordion/Accordion";
+import { accordionItems } from "./interviews/accordion/data";
 
 export default function App() {
-  return <TodoList />;
+  // return <ProductPagination />;
+  return <Accordion items={accordionItems} />;
 }
